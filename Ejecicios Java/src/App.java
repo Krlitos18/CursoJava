@@ -3,7 +3,7 @@ public class App {
     /**
      * @param args
      */
-    public static void main(String[] args){
+    public static void main(String[] args){  /*CANTIDAD DE LETRAS */
 
         EjerUnoA cantidadLetras = new EjerUnoA();
 
@@ -19,6 +19,6 @@ public class App {
 
         EjerDos codific = new EjerDos();
 
-        System.out.println(codific.codificacion("hola mundo", 2));
+        System.out.println(codific.codificacion("hola mundo", 2, false));
     }
 }
